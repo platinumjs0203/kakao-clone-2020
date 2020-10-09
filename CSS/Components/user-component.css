@@ -6,6 +6,10 @@
   display: flex;
   align-items: center;
 }
+.user-component__column-A {
+  margin-bottom: 18px;
+  color: rgb(0, 0, 0, 0.6);
+}
 .user-component__avatar {
   width: 70px;
   height: 70px;
@@ -20,6 +24,10 @@
   margin-top: 8px;
   color: rgb(0, 0, 0, 0.6);
 }
+.user-component__subtitle i {
+  margin-left: 5px;
+  color: crimson;
+}
 .user-component__avatar--xl {
   width: 70px;
   height: 70px;
@@ -31,4 +39,11 @@
 }
 .user-component__title--not-bold {
   font-weight: 450;
+}
+.user-component__time {
+  display: block;
+  margin-bottom: 10px;
+}
+.aa {
+  margin-left: 17px;
 }

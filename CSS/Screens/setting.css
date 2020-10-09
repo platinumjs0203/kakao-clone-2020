@@ -1,0 +1,9 @@
+.settings-setting {
+  padding: 10px 0px;
+  border-bottom: solid 1px rgb(0, 0, 0, 0.1);
+  font-size: 18px;
+}
+
+.settings-setting i {
+  margin-right: 10px;
+}

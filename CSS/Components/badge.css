@@ -1,0 +1,25 @@
+.badge {
+  background-color: tomato;
+  height: 24px;
+  width: 24px;
+  border-radius: 12px;
+  font-weight: 450;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  color: white;
+  font-size: 14px;
+  animation: coin-spin 2s ease-in-out infinite;
+}
+@keyframes coin-spin {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
