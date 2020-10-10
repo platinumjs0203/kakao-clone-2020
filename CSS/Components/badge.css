@@ -23,3 +23,17 @@
     transform: none;
   }
 }
+.badge-aa {
+  background-color: tomato;
+  height: 24px;
+  width: 24px;
+  border-radius: 12px;
+  font-weight: 450;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  color: white;
+  font-size: 14px;
+  margin-left: 17px;
+}
