@@ -20,3 +20,15 @@
 .alt-header__column span {
   padding-right: 10px;
 }
+@keyframes cog-spin {
+  from {
+    transform: none;
+  }
+  to {
+    transform: translateZ(0px) rotateZ(360deg);
+  }
+}
+
+.fa-cog:hover {
+  animation: cog-spin 2s ease-in-out infinite;
+}
